@@ -1,0 +1,21 @@
+/** Add css rules here for your application. */
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #3947ff;
+}
+
+body, td, a, div, .p {
+    font-family: segoe ui, verdana, courier, arial, sans-serif
+}
+
+/*#cpMain {
+    background-color: #3947ff;
+} */
+
+.MainMenu {
+    font-size: 2rem;
+    color: #3947ff;
+}
