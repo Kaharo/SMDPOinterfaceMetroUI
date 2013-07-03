@@ -1,0 +1,28 @@
+#lpHeader {
+    /*color 1 - header color*/
+    background-color: #2E1700;
+}
+
+#lpDashBoard, #lpMainView {
+    /*color 3 - fon color*/
+    background-color: #261300;
+}
+
+#lpTile {
+    /*color 4 - tiles color*/
+    background-color: #543A24;
+
+}
+
+#lpActive {
+    /*color 3 - active color*/
+    /* only background */
+    background-color: #632F00;
+
+}
+
+#lpDisactive {
+    /*color 3 - active color*/
+    /* all elements*/
+    color: #632F00;
+}

@@ -3,7 +3,7 @@ package com.metroUI.client;
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.user.client.ui.*;
 import com.google.gwt.user.client.rpc.AsyncCallback;
-import com.metroUI.client.Monitoring.MonitoringMapInterface;
+import com.metroUI.client.UI.Page;
 import com.sencha.gxt.widget.core.client.container.Viewport;
 
 /**
@@ -17,21 +17,21 @@ public class MetroUI implements EntryPoint {
     public void onModuleLoad() {
         try
         {
-            MonitoringMapInterface map = new MonitoringMapInterface();
+            Page page = new Page();
+
 
             Viewport viewport = new Viewport();
-            viewport.setBorders(false);
 
-            viewport.add(map.asMonitoringWidget());
+            viewport.add(page.asPage());
 
-            RootPanel.get().add(viewport);
+            RootLayoutPanel.get().add(viewport);
         }
         catch (Exception e)
         {
             e.printStackTrace();
 
         }
-            
+
 
 
         /*
